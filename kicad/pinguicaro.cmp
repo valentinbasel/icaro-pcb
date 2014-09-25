@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = jue 25 sep 2014 15:27:12 ART
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = jue 25 sep 2014 17:20:12 ART
 
 BeginCmp
 TimeStamp = /4E9DB082;
@@ -176,13 +176,6 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /519F8E9D;
-Reference = K8;
-ValeurCmp = SEL_L293;
-IdModule  = PIN_ARRAY_3X1;
-EndCmp
-
-BeginCmp
 TimeStamp = /519F9A74;
 Reference = P1;
 ValeurCmp = SALIDA_UNL2803;
@@ -290,6 +283,13 @@ EndCmp
 BeginCmp
 TimeStamp = /542438B6;
 Reference = P16;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /542478B8;
+Reference = P17;
 ValeurCmp = CONN_2;
 IdModule  = SIL-2;
 EndCmp
