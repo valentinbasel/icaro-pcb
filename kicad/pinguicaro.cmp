@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = vie 21 jun 2013 12:30:30 ART
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = jue 25 sep 2014 12:36:40 ART
 
 BeginCmp
 TimeStamp = /4E9DB082;
@@ -211,10 +211,10 @@ IdModule  = SIL-8;
 EndCmp
 
 BeginCmp
-TimeStamp = /519F9072;
+TimeStamp = /542438A9;
 Reference = P5;
-ValeurCmp = PORT_D;
-IdModule  = SIL-8;
+ValeurCmp = CONN_4;
+IdModule  = SIL-4;
 EndCmp
 
 BeginCmp
@@ -278,6 +278,20 @@ TimeStamp = /4F25C4E1;
 Reference = P14;
 ValeurCmp = sn_d4;
 IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /542432A6;
+Reference = P15;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /542438B6;
+Reference = P16;
+ValeurCmp = CONN_2;
+IdModule  = SIL-2;
 EndCmp
 
 BeginCmp
