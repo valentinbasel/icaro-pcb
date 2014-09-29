@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = vie 26 sep 2014 12:41:59 ART
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = lun 29 sep 2014 13:06:28 ART
 
 BeginCmp
 TimeStamp = /4E9DB082;
@@ -66,6 +66,27 @@ EndCmp
 BeginCmp
 TimeStamp = /54258921;
 Reference = C10;
+ValeurCmp = 0,1 uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /542984CE;
+Reference = C11;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54298C12;
+Reference = C12;
+ValeurCmp = 0,1 uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54298F06;
+Reference = C13;
 ValeurCmp = 0,1 uF;
 IdModule  = C1;
 EndCmp
@@ -148,13 +169,6 @@ IdModule  = LED-5MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F271971;
-Reference = D12;
-ValeurCmp = LED;
-IdModule  = LED-5MM;
-EndCmp
-
-BeginCmp
 TimeStamp = /542588F1;
 Reference = D13;
 ValeurCmp = LED;
@@ -207,13 +221,6 @@ BeginCmp
 TimeStamp = /51A3CAA8;
 Reference = K6;
 ValeurCmp = SERVO_5;
-IdModule  = PIN_ARRAY_3X1;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F1C93A0;
-Reference = K7;
-ValeurCmp = DC_OUT;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
@@ -332,7 +339,7 @@ EndCmp
 BeginCmp
 TimeStamp = /542478B8;
 Reference = P17;
-ValeurCmp = CONN_2;
+ValeurCmp = DC_out;
 IdModule  = SIL-2;
 EndCmp
 
@@ -395,13 +402,6 @@ EndCmp
 BeginCmp
 TimeStamp = /4F2E8FB5;
 Reference = R9;
-ValeurCmp = 470;
-IdModule  = R4;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F271976;
-Reference = R10;
 ValeurCmp = 470;
 IdModule  = R4;
 EndCmp
