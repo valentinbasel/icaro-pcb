@@ -1,11 +1,18 @@
-eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: lun 27 may 2013 18:23:20 ART
-
-#Componentes ( orden = Referencia )
-| C1         C           
-| C2         C           
-| C3         C           
-| C4         CP          
-| C5         CP          
+eeschema (2013-june-11)-stable  >> Creation date: lun 29 sep 2014 16:05:26 ART
+#Cmp ( order = Reference )
+| C1         220nF       
+| C2         22pF        
+| C3         22pF        
+| C4         100uF       
+| C5         10uF        
+| C6         100 uF      
+| C7         100uF       
+| C8         100 uF      
+| C9         0,1uF       
+| C10        0,1 uF      
+| C11        0,1uF       
+| C12        0,1 uF      
+| C13        0,1 uF      
 | D1         LED         
 | D2         LED         
 | D3         LED         
@@ -14,10 +21,10 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: lun 27 may 2013 18:23:2
 | D6         LED         
 | D7         LED         
 | D8         LED         
-| D9         DIODE       
+| D9         1n4007      
 | D10        LED         
 | D11        LED         
-| D12        LED         
+| D13        LED         
 | J1         USB_2       
 | K1         SELECTOR_V  
 | K2         SERVO_1     
@@ -25,13 +32,11 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: lun 27 may 2013 18:23:2
 | K4         SERVO_3     
 | K5         SERVO_4     
 | K6         SERVO_5     
-| K7         DC_OUT      
-| K8         SEL_L293    
 | P1         SALIDA_UNL2803
 | P2         VCC         
 | P3         GND         
 | P4         SENS_ANALOG 
-| P5         PORT_D      
+| P5         CONN_4      
 | P6         UNL2803     
 | P7         PORT_B      
 | P8         MOTOR_1     
@@ -41,43 +46,51 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: lun 27 may 2013 18:23:2
 | P12        sn_d2       
 | P13        sn_d3       
 | P14        sn_d4       
-| R1         R           
-| R2         R           
-| R3         R           
-| R4         R           
+| P15        CONN_2      
+| P16        CONN_2      
+| P17        DC_out      
+| R1         470         
+| R2         470         
+| R3         470         
+| R4         470         
 | R5         R           
-| R6         R           
-| R7         R           
-| R8         R           
-| R9         R           
-| R10        R           
-| R11        R           
-| R12        R           
-| R13        R           
-| R14        R           
-| R15        R           
-| R16        R           
+| R6         470         
+| R7         470         
+| R8         470         
+| R9         470         
+| R11        1k          
+| R12        470         
+| R13        1k          
+| R14        1k          
+| R15        1k          
+| R16        1k          
+| R17        470         
 | SW1        ON/OFF      
 | SW2        RESET       
+| SW3        ON/OFF      
 | U1         PIC18F2550  
 | U2         PIC18F4550  
 | U3         L293D       
 | U4         LM7805      
+| U5         78L05       
 | X1         CRYSTAL     
-#Fin Componentes
+#End Cmp
 
 #Componentes ( orden = Valor )
-| C            C1        
-| C            C2        
-| C            C3        
-| CP           C4        
-| CP           C5        
-| CRYSTAL      X1        
-| DC_IN        P10       
-| DC_OUT       K7        
-| DIODE        D9        
-| GND          P3        
-| L293D        U3        
+| 22pF         C2        
+| 22pF         C3        
+| 0,1uF        C9        
+| 0,1uF        C11       
+| 220nF        C1        
+| 10uF         C5        
+| 100uF        C4        
+| 100uF        C7        
+| 0,1 uF       C10       
+| 0,1 uF       C12       
+| 0,1 uF       C13       
+| 100 uF       C6        
+| 100 uF       C8        
+| 1n4007       D9        
 | LED          D1        
 | LED          D2        
 | LED          D3        
@@ -88,48 +101,56 @@ eeschema (2012-01-19 BZR 3256)-stable  >> Creation date: lun 27 may 2013 18:23:2
 | LED          D8        
 | LED          D10       
 | LED          D11       
-| LED          D12       
-| LM7805       U4        
-| MOTOR_1      P8        
-| MOTOR_2      P9        
-| ON/OFF       SW1       
-| PIC18F2550   U1        
-| PIC18F4550   U2        
-| PORT_B       P7        
-| PORT_D       P5        
-| R            R1        
-| R            R2        
-| R            R3        
-| R            R4        
-| R            R5        
-| R            R6        
-| R            R7        
-| R            R8        
-| R            R9        
-| R            R10       
-| R            R11       
-| R            R12       
-| R            R13       
-| R            R14       
-| R            R15       
-| R            R16       
-| RESET        SW2       
-| SALIDA_UNL2803 P1        
-| SEL_L293     K8        
+| LED          D13       
+| USB_2        J1        
 | SELECTOR_V   K1        
-| SENS_ANALOG  P4        
 | SERVO_1      K2        
 | SERVO_2      K3        
 | SERVO_3      K4        
 | SERVO_4      K5        
 | SERVO_5      K6        
+| SALIDA_UNL2803 P1        
+| VCC          P2        
+| GND          P3        
+| SENS_ANALOG  P4        
+| UNL2803      P6        
+| PORT_B       P7        
+| MOTOR_1      P8        
+| MOTOR_2      P9        
+| DC_IN        P10       
 | sn_d1        P11       
 | sn_d2        P12       
 | sn_d3        P13       
 | sn_d4        P14       
-| UNL2803      P6        
-| USB_2        J1        
-| VCC          P2        
+| CONN_2       P15       
+| CONN_2       P16       
+| DC_out       P17       
+| CONN_4       P5        
+| 470          R1        
+| 470          R2        
+| 470          R3        
+| 470          R4        
+| 470          R6        
+| 470          R7        
+| 470          R8        
+| 470          R9        
+| 470          R12       
+| 470          R17       
+| 1k           R11       
+| 1k           R13       
+| 1k           R14       
+| 1k           R15       
+| 1k           R16       
+| R            R5        
+| ON/OFF       SW1       
+| RESET        SW2       
+| ON/OFF       SW3       
+| PIC18F2550   U1        
+| PIC18F4550   U2        
+| L293D        U3        
+| LM7805       U4        
+| 78L05        U5        
+| CRYSTAL      X1        
 #Fin Componentes
 
 #Fin de Lista
