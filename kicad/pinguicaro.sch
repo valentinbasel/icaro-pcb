@@ -31,7 +31,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:Carlolib-anal
 LIBS:pinguicaro-cache
 EELAYER 27 0
 EELAYER END
@@ -39,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "pinguicaro"
-Date "29 sep 2014"
+Date "30 sep 2014"
 Rev "0.1"
 Comp "icaro"
 Comment1 "PCB para 18f4550"

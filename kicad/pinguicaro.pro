@@ -1,6 +1,6 @@
-update=vie 26 sep 2014 12:55:37 ART
+update=mar 30 sep 2014 12:30:37 ART
 version=1
-last_client=cvpcb
+last_client=eeschema
 [general]
 version=1
 [pcbnew]
@@ -31,12 +31,16 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=l293e
-LibName12=openhardware
-LibName13=Crystals_RevA_09Aug2010
-LibName14=icaro2
-LibName15=78l05
+LibName11=openhardware
+LibName12=Crystals_RevA_09Aug2010
+LibName13=icaro2
+LibName14=78l05
 LibDir=../kicad
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -79,9 +83,3 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
-LibName34=Carlolib-anal
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
