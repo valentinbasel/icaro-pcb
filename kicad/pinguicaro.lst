@@ -1,4 +1,4 @@
-eeschema (2013-june-11)-stable  >> Creation date: lun 29 sep 2014 16:05:26 ART
+eeschema (2013-june-11)-stable  >> Creation date: mar 11 nov 2014 20:20:01 ART
 #Cmp ( order = Reference )
 | C1         220nF       
 | C2         22pF        
@@ -32,6 +32,7 @@ eeschema (2013-june-11)-stable  >> Creation date: lun 29 sep 2014 16:05:26 ART
 | K4         SERVO_3     
 | K5         SERVO_4     
 | K6         SERVO_5     
+| K8         SELECTOR_V  
 | P1         SALIDA_UNL2803
 | P2         VCC         
 | P3         GND         
@@ -109,6 +110,7 @@ eeschema (2013-june-11)-stable  >> Creation date: lun 29 sep 2014 16:05:26 ART
 | SERVO_3      K4        
 | SERVO_4      K5        
 | SERVO_5      K6        
+| SELECTOR_V   K8        
 | SALIDA_UNL2803 P1        
 | VCC          P2        
 | GND          P3        

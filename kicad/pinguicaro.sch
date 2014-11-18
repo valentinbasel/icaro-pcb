@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "pinguicaro"
-Date "30 sep 2014"
+Date "11 nov 2014"
 Rev "0.1"
 Comp "icaro"
 Comment1 "PCB para 18f4550"
@@ -1566,10 +1566,10 @@ RD5
 Text GLabel 6750 3400 2    60   Input ~ 0
 RD7
 $Comp
-L VCOM #PWR27
+L VCOM #PWR29
 U 1 1 4EA6D036
 P 12500 7700
-F 0 "#PWR27" H 12500 7900 40  0001 C CNN
+F 0 "#PWR29" H 12500 7900 40  0001 C CNN
 F 1 "VCOM" H 12500 7850 40  0000 C CNN
 F 2 "" H 12500 7700 60  0001 C CNN
 F 3 "" H 12500 7700 60  0001 C CNN
@@ -1989,8 +1989,6 @@ Wire Wire Line
 	13700 7550 13700 7400
 Wire Wire Line
 	13500 7400 13500 8250
-Text GLabel 1850 1450 3    60   Input ~ 0
-vc5
 Text GLabel 4450 9750 3    60   Input ~ 0
 vc5
 Wire Wire Line
@@ -2114,8 +2112,6 @@ Wire Wire Line
 Connection ~ 15150 7150
 Wire Wire Line
 	15050 7150 15250 7150
-Wire Wire Line
-	15650 7600 15650 7450
 Text GLabel 15050 7150 0    60   Input ~ 0
 vc12
 $Comp
@@ -2176,12 +2172,12 @@ $EndComp
 $Comp
 L GND #PWR037
 U 1 1 54258915
-P 15650 7600
-F 0 "#PWR037" H 15650 7600 30  0001 C CNN
-F 1 "GND" H 15650 7530 30  0001 C CNN
-F 2 "" H 15650 7600 60  0001 C CNN
-F 3 "" H 15650 7600 60  0001 C CNN
-	1    15650 7600
+P 15650 7700
+F 0 "#PWR037" H 15650 7700 30  0001 C CNN
+F 1 "GND" H 15650 7630 30  0001 C CNN
+F 2 "" H 15650 7700 60  0001 C CNN
+F 3 "" H 15650 7700 60  0001 C CNN
+	1    15650 7700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2337,4 +2333,42 @@ Wire Wire Line
 	18750 5700 18750 5450
 Wire Wire Line
 	18350 5450 18350 5700
+Wire Wire Line
+	15650 7700 15650 7450
+Text Label 14350 6950 0    60   ~ 0
+estan invertidos los valores del 78l05, para que en el pcb queden bien
+Text GLabel 11200 9200 3    60   Input ~ 0
+vcl293
+$Comp
+L CONN_3 K8
+U 1 1 54628C3B
+P 11200 8650
+F 0 "K8" V 11150 8650 50  0000 C TNN
+F 1 "SELECTOR_V" V 11250 8650 40  0000 C BNN
+F 2 "" H 11200 8650 60  0001 C CNN
+F 3 "" H 11200 8650 60  0001 C CNN
+	1    11200 8650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11200 9200 11200 9000
+$Comp
+L VCOM #PWR27
+U 1 1 54628DB6
+P 11300 9700
+F 0 "#PWR27" H 11300 9900 40  0001 C CNN
+F 1 "VCOM" H 11300 9850 40  0000 C CNN
+F 2 "" H 11300 9700 60  0001 C CNN
+F 3 "" H 11300 9700 60  0001 C CNN
+	1    11300 9700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11300 9700 11300 9000
+Wire Wire Line
+	11100 9000 11100 9650
+Text GLabel 11100 9650 3    60   Input ~ 0
+vc12
+Text GLabel 1850 1450 3    60   Input ~ 0
+vc5
 $EndSCHEMATC
