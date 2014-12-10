@@ -1,4 +1,4 @@
-eeschema (2013-june-11)-stable  >> Creation date: mar 11 nov 2014 20:20:01 ART
+eeschema (2013-june-11)-stable  >> Creation date: dom 30 nov 2014 18:07:07 ART
 #Cmp ( order = Reference )
 | C1         220nF       
 | C2         22pF        
@@ -24,7 +24,9 @@ eeschema (2013-june-11)-stable  >> Creation date: mar 11 nov 2014 20:20:01 ART
 | D9         1n4007      
 | D10        LED         
 | D11        LED         
+| D12        1n4007      
 | D13        LED         
+| D14        1n4007      
 | J1         USB_2       
 | K1         SELECTOR_V  
 | K2         SERVO_1     
@@ -92,6 +94,8 @@ eeschema (2013-june-11)-stable  >> Creation date: mar 11 nov 2014 20:20:01 ART
 | 100 uF       C6        
 | 100 uF       C8        
 | 1n4007       D9        
+| 1n4007       D12       
+| 1n4007       D14       
 | LED          D1        
 | LED          D2        
 | LED          D3        

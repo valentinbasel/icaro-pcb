@@ -3,7 +3,7 @@
   (general
     (links 224)
     (no_connects 0)
-    (area 97.71761 58.6232 207.779255 144.362311)
+    (area 73.779745 41.579801 216.08143 149.9362)
     (thickness 1.6002)
     (drawings 9)
     (tracks 1049)
@@ -83,7 +83,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../../../))
+      (outputdirectory /home/valentin/icaro/kicad/np07-cvg/))
   )
 
   (net 0 "")
