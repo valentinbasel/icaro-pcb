@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = dom 30 nov 2014 18:07:59 ART
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = mar 20 ene 2015 21:47:37 ART
 
 BeginCmp
 TimeStamp = /4E9DB082;
@@ -24,70 +24,70 @@ EndCmp
 BeginCmp
 TimeStamp = /4F2E8D1F;
 Reference = C4;
-ValeurCmp = 100uF;
+ValeurCmp = 100uF-electr;
 IdModule  = C1V5;
 EndCmp
 
 BeginCmp
 TimeStamp = /4E9DB188;
 Reference = C5;
-ValeurCmp = 10uF;
+ValeurCmp = 10uF-electr;
 IdModule  = C1V5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54258903;
 Reference = C6;
-ValeurCmp = 100 uF;
+ValeurCmp = 100uF-electr;
 IdModule  = C1V5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54257F6A;
 Reference = C7;
-ValeurCmp = 100uF;
+ValeurCmp = 100uF-electr;
 IdModule  = C1V5;
 EndCmp
 
 BeginCmp
 TimeStamp = /5425891B;
 Reference = C8;
-ValeurCmp = 100 uF;
+ValeurCmp = 100uF-electr;
 IdModule  = C1V5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54257F80;
 Reference = C9;
-ValeurCmp = 0,1uF;
+ValeurCmp = 0.1uF;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54258921;
 Reference = C10;
-ValeurCmp = 0,1 uF;
+ValeurCmp = 0.1uF;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /542984CE;
 Reference = C11;
-ValeurCmp = 0,1uF;
+ValeurCmp = 0.1uF;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54298C12;
 Reference = C12;
-ValeurCmp = 0,1 uF;
+ValeurCmp = 0.1uF;
 IdModule  = C1;
 EndCmp
 
 BeginCmp
 TimeStamp = /54298F06;
 Reference = C13;
-ValeurCmp = 0,1 uF;
+ValeurCmp = 0.1uF;
 IdModule  = C1;
 EndCmp
 
@@ -395,7 +395,7 @@ EndCmp
 BeginCmp
 TimeStamp = /519F988C;
 Reference = R5;
-ValeurCmp = R;
+ValeurCmp = 470;
 IdModule  = R4;
 EndCmp
 
