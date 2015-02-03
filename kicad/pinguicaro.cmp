@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = mar 20 ene 2015 21:47:37 ART
+Cmp-Mod V01 Created by CvPcb (2013-june-11)-stable date = mar 03 feb 2015 15:00:01 ART
 
 BeginCmp
 TimeStamp = /4E9DB082;
@@ -361,6 +361,13 @@ BeginCmp
 TimeStamp = /542478B8;
 Reference = P17;
 ValeurCmp = DC_out;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D10120;
+Reference = P18;
+ValeurCmp = jmp_diodo;
 IdModule  = SIL-2;
 EndCmp
 
