@@ -1,0 +1,188 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:18f4550
+LIBS:Dispositivos_I2C
+LIBS:l293e
+LIBS:L293D
+LIBS:np08-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 78L05 U1
+U 1 1 579A6760
+P 5250 3350
+F 0 "U1" H 5400 3154 50  0000 C CNN
+F 1 "78L05" H 5250 3550 50  0000 C CNN
+F 2 "modulos:7805" H 5250 3350 50  0001 C CNN
+F 3 "" H 5250 3350 50  0000 C CNN
+	1    5250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 579A683E
+P 6350 3450
+F 0 "C8" H 6375 3550 50  0000 L CNN
+F 1 "0.1uF" H 6375 3350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 6388 3300 50  0001 C CNN
+F 3 "" H 6350 3450 50  0000 C CNN
+	1    6350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C7
+U 1 1 579A68A5
+P 5950 3450
+F 0 "C7" H 5975 3550 50  0000 L CNN
+F 1 "100 uG-electr" V 5950 3650 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 5988 3300 50  0001 C CNN
+F 3 "" H 5950 3450 50  0000 C CNN
+	1    5950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C6
+U 1 1 579A68DB
+P 4600 3450
+F 0 "C6" H 4625 3550 50  0000 L CNN
+F 1 "100uF-electr" H 4050 3350 50  0000 L CNN
+F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 4638 3300 50  0001 C CNN
+F 3 "" H 4600 3450 50  0000 C CNN
+	1    4600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 579A692B
+P 6700 4000
+F 0 "D2" H 6700 4100 50  0000 C CNN
+F 1 "LED" H 6700 3900 50  0000 C CNN
+F 2 "LEDs:LED-5MM" H 6700 4000 50  0001 C CNN
+F 3 "" H 6700 4000 50  0000 C CNN
+	1    6700 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 579A69AC
+P 6700 3450
+F 0 "R3" V 6780 3450 50  0000 C CNN
+F 1 "470" V 6700 3450 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 6630 3450 50  0001 C CNN
+F 3 "" H 6700 3450 50  0000 C CNN
+	1    6700 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 3300 4850 3300
+Wire Wire Line
+	5650 3300 6900 3300
+Connection ~ 5950 3300
+Connection ~ 6350 3300
+Wire Wire Line
+	6700 3600 6700 3800
+$Comp
+L GND #PWR013
+U 1 1 579A6B49
+P 5250 3800
+F 0 "#PWR013" H 5250 3550 50  0001 C CNN
+F 1 "GND" H 5250 3650 50  0000 C CNN
+F 2 "" H 5250 3800 50  0000 C CNN
+F 3 "" H 5250 3800 50  0000 C CNN
+	1    5250 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3800 5250 3600
+Wire Wire Line
+	4600 3600 6350 3600
+Connection ~ 5250 3600
+Connection ~ 5950 3600
+$Comp
+L GND #PWR014
+U 1 1 579A6BB0
+P 6700 4300
+F 0 "#PWR014" H 6700 4050 50  0001 C CNN
+F 1 "GND" H 6700 4150 50  0000 C CNN
+F 2 "" H 6700 4300 50  0000 C CNN
+F 3 "" H 6700 4300 50  0000 C CNN
+	1    6700 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4300 6700 4200
+Text HLabel 6900 3300 2    60   Input ~ 0
+5v_78l05
+Connection ~ 6700 3300
+Text GLabel 4200 3300 0    60   Input ~ 0
+12V
+Connection ~ 4600 3300
+$Comp
+L CONN_01X02 P3
+U 1 1 579A7154
+P 3650 3300
+F 0 "P3" H 3650 3450 50  0000 C CNN
+F 1 "aliment." V 3750 3300 50  0000 C CNN
+F 2 "Connect:bornier2" H 3650 3300 50  0001 C CNN
+F 3 "" H 3650 3300 50  0000 C CNN
+	1    3650 3300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3600 3800 3    60   Input ~ 0
+12V
+$Comp
+L GND #PWR015
+U 1 1 579A71F1
+P 3700 3600
+F 0 "#PWR015" H 3700 3350 50  0001 C CNN
+F 1 "GND" H 3700 3450 50  0000 C CNN
+F 2 "" H 3700 3600 50  0000 C CNN
+F 3 "" H 3700 3600 50  0000 C CNN
+	1    3700 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 3600 3700 3500
+Wire Wire Line
+	3600 3500 3600 3800
+$EndSCHEMATC
