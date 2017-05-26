@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:np08-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -53,7 +54,7 @@ U 1 1 579A2BA6
 P 6500 3750
 F 0 "U***1" H 6500 3850 70  0000 C CNN
 F 1 "PIC18F4550" H 6500 3650 70  0000 C CNN
-F 2 "Housings_DIP:DIP-40_W15.24mm" H 6500 3750 60  0001 C CNN
+F 2 "Housings_QFP:LQFP-44_10x10mm_Pitch0.8mm" H 6500 3750 60  0001 C CNN
 F 3 "" H 6500 3750 60  0000 C CNN
 	1    6500 3750
 	1    0    0    -1  
@@ -66,7 +67,7 @@ U 1 1 579A3775
 P 4150 3000
 F 0 "SW1" H 4300 3110 50  0000 C CNN
 F 1 "SW_PUSH" H 4150 2920 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_PUSH-12mm" H 4150 3000 50  0001 C CNN
+F 2 "Buttons_Switches_SMD:SW_SPST_EVQP0" H 4150 3000 50  0001 C CNN
 F 3 "" H 4150 3000 50  0000 C CNN
 	1    4150 3000
 	0    1    1    0   
@@ -77,7 +78,7 @@ U 1 1 579A382A
 P 3750 3000
 F 0 "C1" H 3775 3100 50  0000 L CNN
 F 1 "10 uF-electr" V 3900 2800 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Radial_D5_L6_P2.5" H 3788 2850 50  0001 C CNN
+F 2 "Capacitors_SMD:CP_Elec_3x5.3" H 3788 2850 50  0001 C CNN
 F 3 "" H 3750 3000 50  0000 C CNN
 	1    3750 3000
 	1    0    0    -1  
@@ -88,7 +89,7 @@ U 1 1 579A389E
 P 3750 2400
 F 0 "R2" V 3830 2400 50  0000 C CNN
 F 1 "1K" V 3750 2400 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 3680 2400 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 3680 2400 50  0001 C CNN
 F 3 "" H 3750 2400 50  0000 C CNN
 	1    3750 2400
 	1    0    0    -1  
@@ -99,18 +100,18 @@ U 1 1 579A3935
 P 3450 2950
 F 0 "R1" V 3530 2950 50  0000 C CNN
 F 1 "470" V 3450 2950 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 3380 2950 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603" V 3380 2950 50  0001 C CNN
 F 3 "" H 3450 2950 50  0000 C CNN
 	1    3450 2950
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-np08 D1
 U 1 1 579A397D
 P 3450 2450
 F 0 "D1" H 3450 2550 50  0000 C CNN
 F 1 "LED" H 3450 2350 50  0000 C CNN
-F 2 "LEDs:LED-5MM" H 3450 2450 50  0001 C CNN
+F 2 "LEDs:LED_0805" H 3450 2450 50  0001 C CNN
 F 3 "" H 3450 2450 50  0000 C CNN
 	1    3450 2450
 	0    -1   -1   0   
@@ -165,7 +166,7 @@ U 1 1 579A3E68
 P 4200 3700
 F 0 "C2" H 4225 3800 50  0000 L CNN
 F 1 "C" H 4225 3600 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4238 3550 50  0001 C CNN
+F 2 "" H 4238 3550 50  0001 C CNN
 F 3 "" H 4200 3700 50  0000 C CNN
 	1    4200 3700
 	0    1    1    0   
@@ -211,7 +212,7 @@ U 1 1 579A422E
 P 4950 4500
 F 0 "C5" H 4975 4600 50  0000 L CNN
 F 1 "220nF" H 4975 4400 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4988 4350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 4350 50  0001 C CNN
 F 3 "" H 4950 4500 50  0000 C CNN
 	1    4950 4500
 	0    1    1    0   
@@ -237,7 +238,7 @@ U 1 1 579A43B7
 P 4800 4100
 F 0 "Y1" H 4800 4250 50  0000 C CNN
 F 1 "Crystal" H 4800 3950 50  0000 C CNN
-F 2 "Crystals:Crystal_HC50-U_Vertical" H 4800 4100 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_HC49-SD" H 4800 4100 50  0001 C CNN
 F 3 "" H 4800 4100 50  0000 C CNN
 	1    4800 4100
 	0    1    1    0   
@@ -256,7 +257,7 @@ U 1 1 579A44E3
 P 4500 4450
 F 0 "C4" H 4525 4550 50  0000 L CNN
 F 1 "22pF" H 4525 4350 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4538 4300 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4538 4300 50  0001 C CNN
 F 3 "" H 4500 4450 50  0000 C CNN
 	1    4500 4450
 	-1   0    0    1   
@@ -267,7 +268,7 @@ U 1 1 579A455B
 P 4200 4450
 F 0 "C3" H 4225 4550 50  0000 L CNN
 F 1 "22pF" H 4225 4350 50  0000 L CNN
-F 2 "Capacitors_ThroughHole:C_Disc_D3_P2.5" H 4238 4300 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4238 4300 50  0001 C CNN
 F 3 "" H 4200 4450 50  0000 C CNN
 	1    4200 4450
 	-1   0    0    1   
@@ -325,12 +326,12 @@ Wire Wire Line
 Wire Wire Line
 	7550 3300 7650 3300
 $Comp
-L USB_B P1
+L USB_B-RESCUE-np08 P1
 U 1 1 579A4922
 P 2950 4650
 F 0 "P1" H 3150 4450 50  0000 C CNN
 F 1 "USB_B" H 2900 4850 50  0000 C CNN
-F 2 "Connect:USB_B" V 2900 4550 50  0001 C CNN
+F 2 "w_conn_pc:conn_usb_B_micro_smd" V 2900 4550 50  0001 C CNN
 F 3 "" V 2900 4550 50  0000 C CNN
 	1    2950 4650
 	0    -1   -1   0   
@@ -501,7 +502,7 @@ U 1 1 579C33B0
 P 8700 5500
 F 0 "P10" H 8700 5650 50  0000 C CNN
 F 1 "CONN_01X02" V 8800 5500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8700 5500 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 8700 5500 50  0001 C CNN
 F 3 "" H 8700 5500 50  0000 C CNN
 	1    8700 5500
 	-1   0    0    1   
@@ -512,7 +513,7 @@ U 1 1 579C345D
 P 8700 5000
 F 0 "P11" H 8700 5150 50  0000 C CNN
 F 1 "CONN_01X02" V 8800 5000 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8700 5000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 8700 5000 50  0001 C CNN
 F 3 "" H 8700 5000 50  0000 C CNN
 	1    8700 5000
 	-1   0    0    1   
@@ -523,7 +524,7 @@ U 1 1 579C35A7
 P 8700 4450
 F 0 "P2" H 8700 4700 50  0000 C CNN
 F 1 "CONN_01X04" V 8800 4450 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 8700 4450 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm" H 8700 4450 50  0001 C CNN
 F 3 "" H 8700 4450 50  0000 C CNN
 	1    8700 4450
 	-1   0    0    1   
@@ -534,7 +535,7 @@ U 1 1 57A389D7
 P 4800 2850
 F 0 "P12" H 4800 3300 50  0000 C CNN
 F 1 "analog" V 4900 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 4800 2850 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch1.27mm" H 4800 2850 50  0001 C CNN
 F 3 "" H 4800 2850 50  0000 C CNN
 	1    4800 2850
 	-1   0    0    1   
@@ -579,7 +580,7 @@ U 1 1 57A3968E
 P 9200 850
 F 0 "P14" H 9200 1300 50  0000 C CNN
 F 1 "+5V" V 9300 850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 9200 850 50  0001 C CNN
+F 2 "" H 9200 850 50  0001 C CNN
 F 3 "" H 9200 850 50  0000 C CNN
 	1    9200 850 
 	0    -1   -1   0   
@@ -601,7 +602,7 @@ U 1 1 57A3A279
 P 8250 850
 F 0 "P13" H 8250 1300 50  0000 C CNN
 F 1 "GND" V 8350 850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08" H 8250 850 50  0001 C CNN
+F 2 "" H 8250 850 50  0001 C CNN
 F 3 "" H 8250 850 50  0000 C CNN
 	1    8250 850 
 	0    -1   -1   0   
@@ -713,4 +714,56 @@ Wire Wire Line
 Wire Wire Line
 	9350 3200 10250 3200
 Connection ~ 10000 1850
+Text GLabel 5250 4300 0    60   Input ~ 0
+RC1
+Text GLabel 5450 4400 0    60   Input ~ 0
+RC2
+Text GLabel 5450 4200 0    60   Input ~ 0
+RC0
+Wire Wire Line
+	5250 4300 5450 4300
+Text GLabel 5450 4800 0    60   Input ~ 0
+RC6
+Text GLabel 5200 4900 0    60   Input ~ 0
+RC7
+Wire Wire Line
+	5200 4900 5450 4900
+Text GLabel 4400 5550 0    60   Input ~ 0
+RC0
+Text GLabel 4650 5650 0    60   Input ~ 0
+RC1
+Text GLabel 4400 5750 0    60   Input ~ 0
+RC2
+Text GLabel 4650 6150 0    60   Input ~ 0
+RC6
+Text GLabel 4400 6250 0    60   Input ~ 0
+RC7
+$Comp
+L CONN_01X02 P17
+U 1 1 5924EF4B
+P 4850 6200
+F 0 "P17" H 4850 6350 50  0000 C CNN
+F 1 "RX-TX" V 4950 6200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch1.27mm" H 4850 6200 50  0001 C CNN
+F 3 "" H 4850 6200 50  0000 C CNN
+	1    4850 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6250 4650 6250
+$Comp
+L CONN_01X03 J1
+U 1 1 5924F188
+P 4850 5650
+F 0 "J1" H 4850 5850 50  0000 C CNN
+F 1 "RC0-RC1-RC2" V 4950 5650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch1.27mm" H 4850 5650 50  0001 C CNN
+F 3 "" H 4850 5650 50  0001 C CNN
+	1    4850 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5550 4650 5550
+Wire Wire Line
+	4650 5750 4400 5750
 $EndSCHEMATC
