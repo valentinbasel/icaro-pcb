@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:np08-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -81,7 +82,7 @@ F 3 "" H 4600 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-np08 D2
 U 1 1 579A692B
 P 6700 4000
 F 0 "D2" H 6700 4100 50  0000 C CNN
@@ -219,7 +220,7 @@ F 3 "" H 6900 2150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-np08 D4
 U 1 1 579B97B7
 P 6900 2650
 F 0 "D4" H 6900 2750 50  0000 C CNN

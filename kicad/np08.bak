@@ -674,21 +674,21 @@ F8 "E5" I L 10250 3800 60
 F9 "E6" I L 10250 3900 60 
 F10 "E7" I L 10250 4000 60 
 $EndSheet
-Text GLabel 10100 3300 0    60   Input ~ 0
-RB0
-Text GLabel 10100 3400 0    60   Input ~ 0
-RB1
-Text GLabel 10100 3500 0    60   Input ~ 0
-RB2
-Text GLabel 10100 3600 0    60   Input ~ 0
-RB3
-Text GLabel 10100 3700 0    60   Input ~ 0
-RB4
-Text GLabel 10100 3800 0    60   Input ~ 0
-RB5
-Text GLabel 10100 3900 0    60   Input ~ 0
-RB6
 Text GLabel 10100 4000 0    60   Input ~ 0
+RB0
+Text GLabel 10100 3900 0    60   Input ~ 0
+RB1
+Text GLabel 10100 3800 0    60   Input ~ 0
+RB2
+Text GLabel 10100 3700 0    60   Input ~ 0
+RB3
+Text GLabel 10100 3600 0    60   Input ~ 0
+RB4
+Text GLabel 10100 3500 0    60   Input ~ 0
+RB5
+Text GLabel 10100 3400 0    60   Input ~ 0
+RB6
+Text GLabel 10100 3300 0    60   Input ~ 0
 RB7
 Wire Wire Line
 	10100 3300 10250 3300

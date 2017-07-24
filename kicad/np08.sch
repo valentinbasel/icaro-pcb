@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:np08-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -105,7 +106,7 @@ F 3 "" H 3450 2950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-np08 D1
 U 1 1 579A397D
 P 3450 2450
 F 0 "D1" H 3450 2550 50  0000 C CNN
@@ -325,7 +326,7 @@ Wire Wire Line
 Wire Wire Line
 	7550 3300 7650 3300
 $Comp
-L USB_B P1
+L USB_B-RESCUE-np08 P1
 U 1 1 579A4922
 P 2950 4650
 F 0 "P1" H 3150 4450 50  0000 C CNN
