@@ -406,11 +406,11 @@ Wire Wire Line
 	7550 4400 7950 4400
 Wire Wire Line
 	7700 4500 7550 4500
-Text GLabel 10000 2450 0    60   Input ~ 0
+Text GLabel 10000 2650 0    60   Input ~ 0
 RD4
 Text GLabel 9750 2350 0    60   Input ~ 0
 RD5
-Text GLabel 10000 2650 0    60   Input ~ 0
+Text GLabel 10000 2450 0    60   Input ~ 0
 RD6
 Text GLabel 9750 2550 0    60   Input ~ 0
 RD7
