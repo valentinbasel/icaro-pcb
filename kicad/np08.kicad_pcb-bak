@@ -3991,7 +3991,7 @@
   (segment (start 141.39 138.76) (end 143.6 136.55) (width 0.8) (layer B.Cu) (net 46) (tstamp 59E296BC))
   (segment (start 145.08 136.55) (end 150.84 136.55) (width 0.8) (layer B.Cu) (net 46))
   (segment (start 150.84 136.55) (end 150.88 136.51) (width 0.8) (layer B.Cu) (net 46) (tstamp 59E296B1))
-  (segment (start 142.94 126.79) (end 142.94 127.965) (width 0.8) (layer B.Cu) (net 47) (status 400000))
+  (segment (start 142.94 126.79) (end 142.94 127.965) (width 0.8) (layer B.Cu) (net 47))
   (segment (start 142.94 127.965) (end 143.515 128.54) (width 0.8) (layer B.Cu) (net 47) (tstamp 59E298E3))
   (segment (start 142.94 109.01) (end 151.45 109.01) (width 0.8) (layer B.Cu) (net 47))
   (segment (start 151.45 109.01) (end 152.95 107.51) (width 0.8) (layer B.Cu) (net 47) (tstamp 59E29823))
