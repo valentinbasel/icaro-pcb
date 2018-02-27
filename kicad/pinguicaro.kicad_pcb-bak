@@ -3,7 +3,7 @@
   (general
     (links 225)
     (no_connects 0)
-    (area 94.615 41.833801 215.92903 150.0886)
+    (area 0 0 0 0)
     (thickness 1.6002)
     (drawings 19)
     (tracks 1077)
@@ -59,7 +59,7 @@
     (aux_axis_origin 179.451 44.323)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00070_80000001)
+      (layerselection 0x000f0_80000001)
       (usegerberextensions true)
       (excludeedgelayer false)
       (linewidth 0.150000)
@@ -82,7 +82,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../../../np07_01/))
+      (outputdirectory ../../../np07_reparada/))
   )
 
   (net 0 "")

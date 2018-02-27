@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.3-1.fc24-product)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 225)
     (no_connects 0)
-    (area 0 0 0 0)
+    (area 94.615 41.833801 215.92903 150.0886)
     (thickness 1.6002)
     (drawings 19)
     (tracks 1077)
@@ -1418,11 +1418,6 @@
       (net 69 vcl293))
     (pad 2 thru_hole circle (at 1.27 0) (size 1.6764 1.6764) (drill 0.8128) (layers *.Cu *.Mask F.Paste F.SilkS)
       (net 5 N-000003))
-    (model discret/leds/led5_vertical_verde.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module LED-5MM (layer Front) (tedit 582A1676) (tstamp 51C5A8ED)
@@ -1585,10 +1580,10 @@
       (net 43 RB6))
     (pad 40 thru_hole oval (at -24.13 -7.62) (size 1.5748 2.286) (drill 0.8128) (layers *.Cu *.Mask F.SilkS)
       (net 44 RB7))
-    (model dil\dil_40-w600.wrl
-      (at (xyz 0 0 0))
+    (model Housings_DIP.3dshapes/DIP-40_W15.24mm.wrl
+      (at (xyz -0.95 -0.3 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 270))
     )
   )
 
